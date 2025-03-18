@@ -1,0 +1,26 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.checkbox__input {
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--primary-color);
+  border-radius: 4px;
+  transition: var(--transition-speed);
+  accent-color: var(--primary-color);
+}
+
+.checkbox__input:checked {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.checkbox__label {
+  font-size: 1rem;
+  cursor: pointer;
+}
